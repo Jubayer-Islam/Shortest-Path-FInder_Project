@@ -85,7 +85,7 @@ def find_neighbors(maze, row, col):
     if col + 1 < len(maze[0]):  # RIGHT
         neighbors.append((row, col + 1))
 
-    return neighbo
+    return neighbors
 
 def main(stdscr):
     curses.init_pair(1, curses.COLOR_BLUE, curses.COLOR_BLACK)
